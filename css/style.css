@@ -1,0 +1,112 @@
+nav {
+  position: fixed;
+}
+.box {
+  border: 1px solid red;
+}
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+.navbar-brand {
+  background-color: red;
+  padding: 10px 20px;
+}
+.navbar-brand > h2 {
+  color: white;
+}
+.navbar-nav {
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+}
+.first-img {
+  width: 100vw;
+}
+.carousel-item > img {
+  height: 35vw;
+}
+.btn-danger {
+  width: 100px;
+}
+
+.thumb {
+  font-size: 10px;
+  margin: 10px 0;
+  color: black;
+  text-decoration: none;
+}
+.thumb > img {
+  width: 50px;
+}
+.thumb:hover {
+  color: red;
+}
+.thumb:active {
+  color: red;
+}
+
+.go {
+  width: 150px;
+}
+
+.cards {
+  width: 100vw;
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.5s ease-in-out;
+}
+footer {
+  background: red;
+  font-size: 14px;
+}
+.first-line {
+  color: white;
+  border-bottom: 1px solid wheat;
+}
+.second-line a {
+  color: white;
+  text-decoration: none;
+}
+.flag {
+  color: white;
+}
+.mobile-footer {
+  border-top: 1px solid #392d23;
+  color: white;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 300;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  align-items: center;
+  display: none;
+}
+.first-line {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 48rem) {
+  .second-line {
+    padding: 0 2rem;
+  }
+
+  .flag {
+    display: none;
+  }
+
+  .first-line {
+    text-align: center;
+  }
+
+  .mobile-footer {
+    display: block;
+  }
+}
+.col {
+  padding-bottom: 1rem;
+}
+.flag-img {
+  margin: 0 0.5rem;
+}
